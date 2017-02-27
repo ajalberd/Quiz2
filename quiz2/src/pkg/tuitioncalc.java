@@ -1,5 +1,5 @@
 package pkg;
-import java.lang.Math; 
+import java.lang.Math;
 import java.util.Scanner;
 
 public class tuitioncalc
@@ -20,6 +20,6 @@ public class tuitioncalc
 		percent = input.nextDouble() ;
 		totalcost += tuition * (1+percent);
 	}
-    System.out.println(totalcost);
+    System.out.printf("Your total tuition cost for 4 years is $%.2f", totalcost);
   }
 }
